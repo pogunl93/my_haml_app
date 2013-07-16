@@ -1,0 +1,35 @@
+body{
+  font-family: sans-serif;
+}
+
+#wrapper{
+  width: 900px;
+  margin: 0 auto;
+}
+
+ul{
+  padding:0;
+}
+
+ul li{
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: green;
+}
+
+h1 a{
+  text-decoration: none;
+  color: black;
+}
+
+.column{
+  width: 400px;
+  float: left;
+  margin-right: 30px;
+}

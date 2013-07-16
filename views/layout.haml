@@ -1,0 +1,22 @@
+!!!
+%html
+	%head
+		%title Ruby Application
+		%link{href: "style.css", rel: "stylesheet", type: "text/css"}
+		%link{href: "bootstrap.css", rel: "stylesheet", type: "text/css"}
+	%body 
+		#wrapper
+			%img{src: "logo.jpg", width: "200"}
+			%h1 
+				%a{href: "/home"} Welcome to my App!
+			%h3 You're gonna love this!
+			%ul.nav.nav-tabs
+				-["home", "services", "contact", "about"].each do |page|
+					%li 
+						%a{href: "/#{page}"}=page.capitalize
+			=yield
+			%br
+			%br
+			%br
+			%br
+				.footer &copy;Lets GO!!!
