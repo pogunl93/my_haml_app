@@ -1,9 +1,9 @@
 require 'rubygems'
 require 'sinatra'
 require 'haml'
-require 'sinatra/activerecord'
+#require 'sinatra/activerecord'
 #set :database, "sqlite3:///My_Users_DB.sqlite3"
-require './models'
+#require './models'
 
 get '/home' do
   haml :home
