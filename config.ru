@@ -1,2 +1,2 @@
-require './my_haml_app'
+require './main_app'
 run Sinatra::Application
