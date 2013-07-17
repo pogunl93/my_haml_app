@@ -10,7 +10,7 @@
 			%h1 
 				%a{href: "/home"} Welcome to my App!
 			%h3 You're gonna love this!
-			%ul.nav.nav-tabs
+			%ul.nav.nav-pills
 				-["home", "services", "contact", "about"].each do |page|
 					%li 
 						%a{href: "/#{page}"}=page.capitalize
