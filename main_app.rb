@@ -5,7 +5,7 @@ require 'haml'
 #set :database, "sqlite3:///My_Users_DB.sqlite3"
 #require './models'
 
-get '/home' do
+get '/' do
   haml :home
 end
 
