@@ -12,7 +12,7 @@
 			%h3 You're gonna love this!
 			%ul.nav.nav-pills
 				-["home", "services", "contact", "about"].each do |page|
-					%li.active 
+					%li
 						%a{href: "/#{page}"}=page.capitalize
 			=yield
 			%br
